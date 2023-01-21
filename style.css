@@ -1,0 +1,222 @@
+/* header section start */
+.header{
+    background-color: rgb(244, 233, 221);
+    padding-top:40px;
+
+}
+.architects-link{
+    display:flex;
+    justify-content: space-between;
+
+}
+.architects{
+    font-weight: bold;
+    color:black;
+    padding-left: 30px;
+    font-size: large;
+}
+.link a{
+    text-decoration: none;
+    color:black;
+    font-size: 1em;
+    font-weight: bold;
+    padding:30px;
+}
+.link a:hover{
+    background-color:gray;
+    color:bisque;
+    border-radius: 5px;
+}
+#brand-name{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+
+}
+p{
+padding-top: 40px;
+color: gray;
+/* text-align: center; */
+justify-content: center;
+text-align: center;
+}
+.btn{
+    position: absolute;
+
+    border:none;
+    background-color: coral;
+    font-weight: bold;
+    height:50px;
+    width: 150px;
+    left: 600px;
+
+    color:wheat;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center ;
+}
+.btn:hover{
+    background-color: lightgray;
+    color:black;
+    
+}
+img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:90px;
+
+}
+/* header section end */
+
+/* feature section start */
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.feature-img{
+    
+    display:grid;
+    grid-template-columns: auto auto;
+
+    width:50%;
+    padding-left: 85px;
+    box-sizing: border-box;
+
+
+
+}
+.feature-img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+.feature-description{
+    width:50%;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+
+    
+
+
+
+
+
+}
+.btn-2{
+    border:none;
+    border-radius: 5px;
+    background-color: coral;
+    color:whitesmoke;
+    height:50px;
+    width:150px;
+    font-weight: bold;
+}
+.btn-2:hover{
+    background-color: lightgray;
+    color:black;
+}
+
+/* feature section end */
+
+
+.love-enjoy{
+    display:grid;
+    grid-template-columns: auto auto;
+
+    width:100%;
+    padding-top: 50px;
+}
+
+.btn-3{
+    border:none;
+    background-color: coral;
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    height:50;
+    width:200px;
+    border-radius: 5px;
+    position: relative;
+    left:550px;
+    margin-top: 40px;
+}
+.btn-3:hover{
+    background-color: lightgray;
+    color:black;
+}
+.div{
+    height:50px;
+    width: 50px;
+    text-align: center;
+
+}
+
+.some-facts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+
+#h1-1{
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align:center;
+    color: coral;
+}
+.para{
+    padding-top:6px;
+}
+.h1-2{
+    padding-top: 250px;
+    text-align: center;
+    color:coral;
+}
+.sponspors-img{
+    height: 100px;
+    width: 100px;
+    /* display:flex; */
+
+
+
+
+}
+img{
+justify-content: space-between;
+display:inline ;
+
+}
+
+
+.footer{
+    background-color: black;
+    height:60px;
+    margin-top:400px;
+    text-align: center;
+   
+
+}
+.footer p{
+    color:aqua;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
